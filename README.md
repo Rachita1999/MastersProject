@@ -80,8 +80,7 @@ cat output_ProteinSeq.fastab | bin/hashcol Olengthprotein.len.tab | bin/hashcol 
 
 Cluster proteins using the MCL algorithm.
 
-``` cat ProteinSeq.fastab.coverage  | awk '{if ($3 <= 1) print}' | awk '{if ($5 >= 0.4) print}' | awk '{if (sqrt(($4-1)^2) - (sqrt(sqrt($5))-.8) + sqrt($6^2) <= 0.1) print $1 "\t" $2}' | bin/mcl - -o - --abc -I 1.2 > OProtein_clusters.txt
-```
+``` cat ProteinSeq.fastab.coverage  | awk '{if ($3 <= 1) print}' | awk '{if ($5 >= 0.4) print}' | awk '{if (sqrt(($4-1)^2) - (sqrt(sqrt($5))-.8) + sqrt($6^2) <= 0.1) print $1 "\t" $2}' | bin/mcl - -o - --abc -I 1.2 > OProtein_clusters.txt```
 
 ## Multiple Sequence Alignment
 
