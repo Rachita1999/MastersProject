@@ -1,7 +1,7 @@
 # Masters Project
-This is a Masters Study Project on Bioinformatics CRISPR Cas system Type 5.
+This is a Masters Study Project on Bioinformatics CRISPR Cas system Type V.
 
-Topic : Annotation and classification of Type 5 CRISPR CAS
+Topic : Annotation and classification of Type V CRISPR CAS
 
 ## Overview
 This project provides a comprehensive pipeline for genomic sequence analysis. It includes steps for extracting genomic sequences based on accession numbers, generating prodigal files, creating similarity matrices, clustering using MCL, performing multiple sequence alignments, and building Hidden Markov Models (HMM) for each alignment.
