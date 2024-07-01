@@ -18,7 +18,6 @@ This project provides a comprehensive pipeline for genomic sequence analysis. It
     5. [Multiple Sequence Alignment](#multiple-sequence-alignment)
     6. [HMM Build](#hmm-build)
 4. [Contributing](#contributing)
-5. [License](#license)
 
 ## Requirements
 
