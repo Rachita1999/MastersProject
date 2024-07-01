@@ -57,7 +57,9 @@ Code can be found at Genomic_sequence.py
 
 Generate prodigal files from the extracted genomic sequences.
 
-```prodigal -i fullresults.fasta -o output.gbk -a output_Protein_Seqs.faa -c -m -g 11 -p meta```
+```
+prodigal -i fullresults.fasta -o output.gbk -a output_Protein_Seqs.faa -c -m -g 11 -p meta
+```
 
 Code can be found at Prodigal_Generation.py
 
