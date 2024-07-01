@@ -11,10 +11,10 @@ import os
 import subprocess
 
 # Full path to your single FASTA file (update this to your actual file path)
-input_fasta = "/mnt/g/MastersProject/resultss.fasta"
+input_fasta = "path_to_your_input_fasta_file"
 
 # Full path to your output directory (update this to your actual output directory path)
-output_dir = "/mnt/g/MastersProject/output"
+output_dir = "path_to_your_output_directory"
 
 # Ensure the output directory exists
 if not os.path.exists(output_dir):
