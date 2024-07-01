@@ -94,5 +94,11 @@ Generate multiple sequence alignments using the MUSCLE tool.
 muscle -in Cluster_1.fa -out  Cluster_1.aln 
 ```
 
+## HMM Build
 
+Build HMMs for every alignment file.
+
+```
+hmmbuild output.hmm aligned.fasta
+```
 
