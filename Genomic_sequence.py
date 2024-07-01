@@ -86,7 +86,7 @@ def load_checkpoint(checkpoint_file):
     return 0
 
 def main():
-    input_excel = r"/Path/Output/file.xlsx" # Replace with your input Excel file path
+    input_excel = r"/Path/Input/file.xlsx" # Replace with your input Excel file path
     output_file = r"/Path/Output/file.fasta"  # Replace with your desired output file path
     checkpoint_file = r"/content/checkpoint.pkl"  # Replace with your checkpoint file path
     email = "rachitag1999@gmail.com"  # Replace with your email
