@@ -102,3 +102,5 @@ Build HMMs for every alignment file.
 hmmbuild output.hmm aligned.fasta
 ```
 
+## Contributing
+Contributions are welcome! Please fork this repository and submit pull requests with your changes.
