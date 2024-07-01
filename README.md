@@ -50,3 +50,21 @@ This project provides a comprehensive pipeline for genomic sequence analysis. It
 ### Genomic Sequence Extraction
 
 Extract genomic sequences from given accession numbers and specified start and end regions.
+Code can be found at Genomic_sequence.py
+
+## Prodigal File Generation
+
+Generate prodigal files from the extracted genomic sequences.
+```prodigal -i fullresults.fasta -o output.gbk -a output.faa -c -m -g 11 -p meta```
+
+Code can be found at Prodigal_Generation.py
+
+## Similarity Matrix Generation
+Generate a similarity matrix using protein sequences.
+
+```
+output_ProteinSeqs.faa output_ProteinSeq.faa -m 8 > output_ProteinSeq.fastab
+```
+
+
+
